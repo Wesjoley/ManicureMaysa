@@ -15,7 +15,7 @@
 body,
 html {
   font-family: "Poppins", sans-serif;
-  background-image: linear-gradient(to top,#d8a1ca, #e05cda);
+  background-image: linear-gradient(to top,#9e7f96, #852c80);
 }
 
 .container {
@@ -52,12 +52,14 @@ html {
   width: 250px;
   height: 200px;
 
-  border-radius: 50%;
+  border-radius: 80px;
 }
 
 .tree-container .instagram-user {
   margin-top: 15px;
-  color: var(--black);
+  color: white;
+  
+  
 }
 
 .tree-container .links-container {
@@ -70,7 +72,7 @@ html {
   margin-top: 16px;
   width: 325px;
 
-  border: 2px solid var(--pink);
+  border: 2px solid #cc4eac;
   border-radius: 4px;
 
   font-size: 16px;
@@ -86,8 +88,8 @@ html {
 }
 
 .links-container .link:hover {
-  background: var(--pink);
-  color: var(--body-bg-color);
+  background:rgb(233, 76, 207);
+  color: rgb(255, 255, 255);
 
   transition: ease 0.5s;
   
@@ -111,5 +113,10 @@ html {
 
 .socials-container .social:hover {
   transform: scale(1);
-  background-color: #d127a7;
+  background-color: #e05cda;
 }
+
+.avatar{
+  border-radius: 80px;
+}
+
